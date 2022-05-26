@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body {
+  font-family: 'Merriweather', serif;
+  height: 3000px;
+}
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron {
+  background-image: url(assets/hero_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.btn-hijau {
+  background-color: #b4d51e;
+  color: white;
+}
+
+#trending .card {
+  width: 15rem;
+}
+
+@media screen and (max-width: 994px) {
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(assets/hero_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+  }
+  .jumbotron h1 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .jumbotron p {
+    font-size: 5px;
+  }
+  .jumbotron img {
+    width: 150px;
+    height: 150px;
+  }
+  .jumbotron .btn {
+    width: 70px;
+    font-size: 5px;
+  }
+  /* Akhir Jumbotron */
+
+  /* Tranding */
+  #tranding .card {
+    width: 80px;
+  }
+  #tranding img {
+    width: 50px;
+  }
+  #tranding h5 {
+    font-size: 10px;
+  }
+  #tranding h6 {
+    font-size: 8px;
+  }
+  #tranding p {
+    font-size: 5px;
+  }
+  #tranding .btn {
+    width: 40px;
+    font-size: 5px;
+  }
+  /* Akhir Tranding */
+}
