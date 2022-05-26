@@ -23,6 +23,9 @@ section {
 }
 
 @media screen and (max-width: 994px) {
+  .navbar-brand {
+    font-size: 10px;
+  }
   /* Jumbotron */
   .jumbotron {
     background-image: url(assets/hero_background.png);
